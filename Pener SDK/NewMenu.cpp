@@ -305,7 +305,11 @@ void DrawMenu()
 		const char* tabs[] = { "     Aimbot", "     Visuals", "     Misc","     Anti Aim","     Config","     Color" };
 
 		ImGui::PushItemWidth(140);
+<<<<<<< HEAD
 		ImGui::ListBox("##tablist", &tab_count, tabs, ARRAYSIZE(tabs), 60);
+=======
+		ImGui::ListBox("##tablist", &tab_count, tabs, ARRAYSIZE(tabs), 30);
+>>>>>>> master
 		ImGui::PopItemWidth();
 
 	ImGui::SameLine();

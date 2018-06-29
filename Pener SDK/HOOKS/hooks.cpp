@@ -455,10 +455,17 @@ namespace HOOKS
 		style->Colors[ImGuiCol_Text] = ImVec4(0.80f, 0.80f, 0.83f, 1.00f);
 		style->Colors[ImGuiCol_TextDisabled] = ImVec4(0.24f, 0.23f, 0.29f, 1.00f);
 		style->Colors[ImGuiCol_WindowBg] = ImVec4(0.06f, 0.05f, 0.07f, 1.00f);
+<<<<<<< HEAD
 		style->Colors[ImGuiCol_ChildWindowBg] = ImVec4(0.06f, 0.05f, 0.07f, 1.00f);
 		style->Colors[ImGuiCol_PopupBg] = ImVec4(0.07f, 0.07f, 0.09f, 1.00f);
 		style->Colors[ImGuiCol_Border] = ImVec4(0.07f, 0.07f, 0.09f, 0.88f);
 		style->Colors[ImGuiCol_BorderShadow] = ImVec4(0.06f, 0.05f, 0.07f, 1.00f);
+=======
+		style->Colors[ImGuiCol_ChildWindowBg] = ImVec4(0.07f, 0.07f, 0.09f, 1.00f);
+		style->Colors[ImGuiCol_PopupBg] = ImVec4(0.07f, 0.07f, 0.09f, 1.00f);
+		style->Colors[ImGuiCol_Border] = ImVec4(0.07f, 0.07f, 0.09f, 0.88f);
+		style->Colors[ImGuiCol_BorderShadow] = ImVec4(0.92f, 0.91f, 0.88f, 0.00f);
+>>>>>>> master
 		style->Colors[ImGuiCol_FrameBg] = ImVec4(0.10f, 0.09f, 0.12f, 1.00f);
 		style->Colors[ImGuiCol_FrameBgHovered] = ImVec4(0.24f, 0.23f, 0.29f, 1.00f);
 		style->Colors[ImGuiCol_FrameBgActive] = ImVec4(0.56f, 0.56f, 0.58f, 1.00f);
@@ -489,7 +496,11 @@ namespace HOOKS
 		style->Colors[ImGuiCol_CloseButton] = ImVec4(0.40f, 0.39f, 0.38f, 0.16f);
 		style->Colors[ImGuiCol_CloseButtonHovered] = ImVec4(0.40f, 0.39f, 0.38f, 0.39f);
 		style->Colors[ImGuiCol_CloseButtonActive] = ImVec4(0.40f, 0.39f, 0.38f, 1.00f);
+<<<<<<< HEAD
 		style->Colors[ImGuiCol_PlotLines] = ImVec4(0.06f, 0.05f, 0.07f, 0.00f);
+=======
+		style->Colors[ImGuiCol_PlotLines] = ImVec4(0.40f, 0.39f, 0.38f, 0.63f);
+>>>>>>> master
 		style->Colors[ImGuiCol_PlotLinesHovered] = ImVec4(0.25f, 1.00f, 0.00f, 1.00f);
 		style->Colors[ImGuiCol_PlotHistogram] = ImVec4(0.40f, 0.39f, 0.38f, 0.63f);
 		style->Colors[ImGuiCol_PlotHistogramHovered] = ImVec4(0.25f, 1.00f, 0.00f, 1.00f);
@@ -532,11 +543,19 @@ namespace HOOKS
 			ImGuiStyle * style = &ImGui::GetStyle();
 			
 			ImGuiIO& io = ImGui::GetIO();
+<<<<<<< HEAD
 			static constexpr auto frequency = 1 / 0.22f;
 			flAlpha = clip(flAlpha + frequency * io.DeltaTime, 0.f, 1.f);
 			style->Alpha = flAlpha;
 			ImGui::SetNextWindowSize(ImVec2(680, 350));
 			ImGui::Begin("", &menu_open, ImGuiWindowFlags_NoCollapse | ImGuiWindowFlags_NoResize | ImGuiWindowFlags_NoTitleBar | ImGuiWindowFlags_NoScrollWithMouse | ImGuiWindowFlags_NoScrollbar |  ImGuiWindowFlags_ChildWindowAutoFitX);
+=======
+			static constexpr auto frequency = 1 / 0.32f;
+			flAlpha = clip(flAlpha + frequency * io.DeltaTime, 0.f, 1.f);
+			style->Alpha = flAlpha;
+			ImGui::SetNextWindowSize(ImVec2(680, 550));
+			ImGui::Begin("", &menu_open, ImGuiWindowFlags_NoCollapse | ImGuiWindowFlags_NoResize | ImGuiWindowFlags_NoTitleBar | ImGuiWindowFlags_NoScrollWithMouse | ImGuiWindowFlags_NoScrollbar);
+>>>>>>> master
 			{
 				DrawMenu();
 			}

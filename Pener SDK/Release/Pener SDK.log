@@ -1,0 +1,18 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(377,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(944,5): warning MSB8027: Two or more files with the name of imgui_impl_dx9.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are ImGui\dx9\imgui_impl_dx9.cpp, ImGui\imgui_impl_dx9.cpp.
+  hooks.cpp
+imgui_dx9.obj : warning LNK4006: "void __cdecl ImGui_ImplDX9_NewFrame(void)" (?ImGui_ImplDX9_NewFrame@@YAXXZ) already defined in imgui_dx9.obj; second definition ignored
+imgui_dx9.obj : warning LNK4006: "void __cdecl ImGui_ImplDX9_InvalidateDeviceObjects(void)" (?ImGui_ImplDX9_InvalidateDeviceObjects@@YAXXZ) already defined in imgui_dx9.obj; second definition ignored
+imgui_dx9.obj : warning LNK4006: "bool __cdecl ImGui_ImplDX9_CreateDeviceObjects(void)" (?ImGui_ImplDX9_CreateDeviceObjects@@YA_NXZ) already defined in imgui_dx9.obj; second definition ignored
+imgui_dx9.obj : warning LNK4006: "bool __cdecl ImGui_ImplDX9_GetFontPath(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &)" (?ImGui_ImplDX9_GetFontPath@@YA_NABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AAV12@@Z) already defined in imgui_dx9.obj; second definition ignored
+imgui_dx9.obj : warning LNK4006: "void __cdecl ImGui_ImplDX9_Shutdown(void)" (?ImGui_ImplDX9_Shutdown@@YAXXZ) already defined in imgui_dx9.obj; second definition ignored
+imgui_dx9.obj : warning LNK4006: "bool __cdecl ImGui_ImplDX9_Init(void *,struct IDirect3DDevice9 *)" (?ImGui_ImplDX9_Init@@YA_NPAXPAUIDirect3DDevice9@@@Z) already defined in imgui_dx9.obj; second definition ignored
+imgui_dx9.obj : warning LNK4006: "long __cdecl ImGui_ImplDX9_WndProcHandler(struct HWND__ *,unsigned int,unsigned int,long)" (?ImGui_ImplDX9_WndProcHandler@@YAJPAUHWND__@@IIJ@Z) already defined in imgui_dx9.obj; second definition ignored
+Release\imgui_impl_dx9.obj : warning LNK4042: object specified more than once; extras ignored
+.\Release\Wireframe.dll : warning LNK4088: image being generated due to /FORCE option; image may not run
+  Generating code
+  1 of 2401 functions (<0.1%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    2 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  Pener SDK.vcxproj -> C:\Users\ware\Documents\Counter Strike GO\Wirefra.me\Pener SDK\.\Release\Wireframe.dll
